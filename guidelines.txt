@@ -1,0 +1,35 @@
+
+Open  web browser and go to http://localhost:8501
+Upload an image using the sidebar
+Select an edge detection algorithm
+Adjust parameters and observe the results
+Download processed images as needed
+
+
+# Make sure you're in the edge_detection_app directory
+pip install -r requirements.txt
+streamlit run app.py
+
+Algorithms
+Sobel
+Computes gradient approximations
+Parameters: Kernel size, gradient direction (X, Y, or both)
+
+Laplacian
+Uses second derivatives for edge detection
+Parameters: Kernel size
+
+Canny
+Multi-stage algorithm with noise reduction
+Parameters: Low/high thresholds, kernel size, sigma
+
+
+Key Features Implemented
+ Image Upload: Browse and select images from local file system
+ Multiple Formats: Supports JPG, PNG, BMP
+ Side-by-side Display: Input and output images arranged horizontally
+ Algorithm Selection: Dropdown for Sobel, Laplacian, Canny
+ Dynamic Parameters: Real-time adjustable parameters for each algorithm
+ Responsive Updates: Real-time or manual update options
+ User-Friendly Interface: Clean, intuitive design with helpful tooltips
+ Download Capability: Save processed images
