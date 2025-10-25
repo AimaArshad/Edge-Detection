@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 Once dependencies are installed, start the Streamlit app with:
 ```bash
-streamlit run edge_detection_ui.py
+streamlit run app.py
 ```
 Then open the local URL shown in the terminal.
 
